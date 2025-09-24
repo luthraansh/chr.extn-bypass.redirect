@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Google Redirect Bypass",
+  "description": "Bypass Google's redirect notice and go straight to the destination.",
+  "version": "1.0",
+  "icons": {
+    "48": "icon.png"
+  },
+  "permissions": [
+    "tabs",
+    "webNavigation"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ]
+}
+
