@@ -4,7 +4,9 @@
   "description": "Bypass Google's redirect notice and go straight to the destination.",
   "version": "1.0",
   "icons": {
-    "48": "icon.png"
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
   },
   "permissions": [
     "tabs",
@@ -13,6 +15,7 @@
   "background": {
     "service_worker": "background.js"
   },
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArlUOBpltepbX/atTULfUBhf5pn5jlZB3NgO+sWMoqfTYcDOAddFDOz6Dc8kAgtbqMjEWWsLa2OEzCTxctnnOVuZiB1tb5XHD+MWB2iFm3z24S3mSX3YHK0HJE6+WsgTbz2wJ6MsDpMXDkYEZz2W9jlm5ym+Thrk0vAfN3qrDEDyHczhS1fzPnHT4K+cIO93eLJdgpbKuNsMa6BDdhdh7zNG+BNTxEfBtgDrVrpotigt9uYwotlqLUeFX/F1lMZOPldBrdjRw11yUUAIy1WUOvYUGaA/Vyu0n/rHzec8zUE5Cr39RWP+Y9apnV8AfO7FIlu+j1d93pYCxkZX/b2XCuwIDAQAB",
   "host_permissions": [
     "http://*/*",
     "https://*/*"
